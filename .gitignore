@@ -1,0 +1,39 @@
+/node_modules
+node_modules
+/cgi-bin
+/desktop_app
+/eshop_app
+/images
+/.htaccess
+/local/fonts
+/favicon.ico
+/include/images/fav.png
+# /.vscode
+# /.vscode/sftp.json
+/*.htaccess
+/.htaccess*
+/urlrewrite.php
+/web.config
+/*web.config
+/*.log
+/*.sql
+# исключаем из репозитория текстовые файлы, но оставляем robots.txt
+/*.txt
+/robots.txt
+/sitemap*.xml
+/*.dt
+/*.tar.gz
+/*.gz
+/*.tar
+/*.bak
+/*.old
+# /*~
+# */_*
+# /_*
+/composer.*
+/*.zip
+
+# исключаем ВСЮ папку bitrix, но ниже настроим включение нужных папок
+# или используйте папку /local, чтобы полностью исключить папку bitrix
+# /bitrix
+/upload
