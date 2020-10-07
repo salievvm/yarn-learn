@@ -10,9 +10,12 @@
 %price-current {
 //	flex-wrap: wrap;
 	font-weight: 600;
-	font-size: $font-size-lg;
+	font-size: $font-size-sm;
 //	margin-top: -1*map-get($spacers, 3);
 	white-space: nowrap;
+	@media (min-width: 576px) {
+		font-size: 1.125rem;
+  	}
 }
 
 %price-economy {
